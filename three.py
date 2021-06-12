@@ -2,7 +2,7 @@
 
 
 N = int(input("enter the number of students:"))
-K = int (input("enter the number of apples"))
+K = int (input("enter the number of apples:"))
 each_student_get = K//N
 rem = K%N
 print(f"Each student gets {each_student_get} apples")
