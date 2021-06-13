@@ -3,3 +3,7 @@
 A person’s body mass index (BMI) is defined as:
 BMI=mass in kg / (height in m)2.'''
 
+mass = float(input("Enter your weight in kg:"))
+height = float(input("Enter your height in m:"))
+BMI = mass/ height
+print(f"Your BMI is:{BMI}")

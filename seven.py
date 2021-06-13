@@ -2,3 +2,10 @@
  the way. How long will the bus journey take? Alternatively, you could run to university. You jog the first mile
   at 7mph; then run the next two at15mph; before jogging the last at 7mph again. Will this be quicker or slower
   than the bus?'''
+
+
+dist = 4
+speed = 24*60
+time = (dist/speed) + 20
+print(f"The bus journey will take {time} minutes")
+
