@@ -5,7 +5,8 @@
 
 
 dist = 4
-speed = 24*60
-time = (dist/speed) + 20
+speed = 25*60
+stops = 10
+time = (dist/speed) + (2*stops)
 print(f"The bus journey will take {time} minutes")
 
