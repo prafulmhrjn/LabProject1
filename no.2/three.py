@@ -4,10 +4,21 @@
   otherwise - name looks good!
 '''
 
-
 name = str(input("Enter your name:"))
-short_name = name<3
-if short_name:
-    print(f"name must be atleast 3 characters long")
+if len(name)<3:
+    print(f"name must be atleast 3 characters")
+elif len(name)>50:
+    print(f"name must be maximum of 50 characters")
+else:
+    print(f"name looks good!")
+
+
+
+
+
+
+
+
+
 
 

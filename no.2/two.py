@@ -2,11 +2,12 @@
 otherwise it's neither hot neither cold.
 '''
 
-temperature_today = float(input("Enter the temperature:"))
-if temperature_today>30:
-    print(f"It's a hot day")
-if temperature_today<10:
-    print(f"It's a cold day.")
-if temperature_today>10<30:
-    print(f"It's neither hot neither cold.")
+temperature_today = float(input("Enter todays temperature:"))
+if temperature_today> 30:
+    print(f"its a hot day")
+elif temperature_today<10:
+    print(f"its cold today")
+else:
+    print(f"its neither hot nor cold")
+
 

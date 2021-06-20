@@ -1,16 +1,12 @@
-'''
-Task -----------------condition------------------------------
-Weight converter:
-  Input the weight of a person in either kg or lbs. If the person provides his/her
-  weight in kg then convert it into lbs
-  else convert it to kg.
-'''
-weight = float(input("Enter your weight:"))
-weight_given = input("lbs or kg:")
+weight = float(input("Enter the weight of the person : "))
 
-if weight_given == kg:
-    convert_lbs = (weight*2.20)
-    print(f"Your weight in lbs is {convert_lbs}")
+unit = input("(L)bs or (K)g : ")
+
+if unit.upper() == "L":
+    converted_lbs = weight * 0.45
+    print(f"The person weight is {converted_lbs} kilos")
+elif unit.upper() == "K":
+    converted_kg = weight / 0.45
+    print(f"The person weight is {converted_kg} pounds")
 else:
-    convert_kg = (weight/2.20)
-    print(f"Your weight in kg is {convert_kg}")
+    print(f"Please enter appropriate character as K for Kg or L for Lbs !!")
